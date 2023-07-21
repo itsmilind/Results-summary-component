@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <section class="main"> <!--parent of first and second container -->
+    <!-- first container  -->
+    <div class="container container-first">
+      <div class="title">Your Result</div>
+      <div class="circle">
+        <h1>76</h1>
+        <div class="sub">of 100</div>
+      </div>
+
+      <div class="comment">
+        <h1>Great</h1>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
+
+    <!-- second-container -->
+    <div class="container container-sec">
+      <div class="title">Summary</div>
+      <div class="score-container-parent">
+
+      <div class="score-container reaction">
+        <div class="ico-p">
+          <img src="assets/images/icon-reaction.svg" alt="">
+          <div class="score-type">Reaction</div>
+        </div>
+        <div class="score">80 <span class="out-of">/ 100</span></div> 
+      </div>
+
+      <div class="score-container memory">
+        <div class="ico-p">
+          <img src="assets/images/icon-memory.svg" alt="">
+          <div class="score-type">Memory</div>
+        </div>
+        <div class="score">92 <span class="out-of">/ 100</span></div>  
+      </div>
+
+      <div class="score-container verbal">
+        <div class="ico-p">
+          <img src="assets/images/icon-verbal.svg" alt="">
+          <div class="score-type">Verbal</div>
+        </div>
+        <div class="score">61 <span class="out-of">/ 100</span></div>  
+      </div>
+      
+      <div class="score-container visual">
+        <div class="ico-p">
+          <img src="assets/images/icon-visual.svg" alt="">
+          <div class="score-type">Visual</div>
+        </div>
+        <div class="score">72 <span class="out-of">/ 100</span></div>
+      </div>
+  
+      <button class="btn">Continue</button>
+    </div>
+  </section>
+</body>
+
+</html>
